@@ -24,5 +24,6 @@ vim.cmd([[
   cnoreabbrev N Neogen
   cnoreabbrev PC PackerCompile
   cnoreabbrev PI PackerInstall
+  cnoreabbrev G Gitsigns
 ]])
 

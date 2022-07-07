@@ -1,19 +1,17 @@
 -- lua/core/ui.lua
 
+
 local fn = vim.fn
 
-
-local diagnostic_signs = {
+-- Diagnostic Signs
+for type, icon in pairs({
   Error = " ",
   Warning = " ",
   Warn = " ",
   Hint = " ",
   Information = " ",
   Info = " ",
-}
-
--- Define Diagnostic Signs
-for type, icon in pairs(diagnostic_signs) do
+}) do
   local highlight = "DiagnosticSign" .. type
   fn.sign_define(highlight, { text = icon, texthl = highlight, numhl = "" })
 end

@@ -12,6 +12,7 @@ augroup("hover", {})
 augroup("windows", {})
 augroup("terms", {})
 
+
 autocmd("BufWritePost", {
   desc = "Auto Compile plugins.lua file",
   group = "packer_user_config",

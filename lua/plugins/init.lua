@@ -251,6 +251,7 @@ return packer.startup({
         "lambdalisue/fern-hijack.vim",
         "lambdalisue/fern-mapping-quickfix.vim",
         "lambdalisue/nerdfont.vim",
+        "lambdalisue/glyph-palette.vim",
         "lambdalisue/fern-renderer-nerdfont.vim",
         "lambdalisue/fern-git-status.vim",
         "lambdalisue/fern-bookmark.vim",
